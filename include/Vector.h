@@ -35,6 +35,7 @@ class Vector
         Vector operator-() const;
 
         void makeUnit();
+        Vector getUnit();
 
         double getLength() const;
 
